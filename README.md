@@ -1,6 +1,6 @@
 # **Superstore Sales Analysis** 
 ![Superstore icon](https://cdn-icons-png.flaticon.com/512/8422/8422894.png)
-### >> Objective
+### <img src="https://cdn-icons-png.flaticon.com/512/5145/5145947.png" width="30" height="30"> >> Objective
 ----------------
 This project aims to analyze superstore sales and customer transaction data over the span of 5years (2014, 2015, 2016, 2017, 2018) in order to drive insights regarding high-demand products, regions with most demanding customers, and determine how to further increase sales and prevent decline, while maintaining customer base and increasing repeating customers.
 
