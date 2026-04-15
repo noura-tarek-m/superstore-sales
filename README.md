@@ -17,7 +17,7 @@ This project aims to analyze superstore sales and customer transaction data over
 - Standardized column names and data types.
 - Normalized text columns
 - Created calculated columns for efficient analysis.
-- Created DAX measures such as Profit and Revenue -------
+- Created DAX measures such as Total Sales, Total Quantity, and Total Customers.
 
 ### 5. Data Modeling 
 The data was structured using a star schema with FactOrders as the fact table, connected to dimension tables of customers, products, and date data. 
