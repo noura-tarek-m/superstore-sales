@@ -55,8 +55,8 @@ the dashboard shows the demographics data of customers, it shows the sales achie
 slicers are used across the three dashboards to introduce interactivity and better explore data across different time ranges and locations.
  
 ### 9. Key Findings (Insights) & Recommendations 
-1.	The sales achieved in 2025 are much less than 2024, but we are only through the first quarter of 2025, thus there is no point of comparison in the meantime.
-2.	Orders and sales increase throughout February, March, Sep, Oct, and Nov (1st and 4th quarters of the year, specifically). 
-3.	More orders come in the late morning (11 AM) and afternoon period (4 PM). The café must make sure of staff and drinks availability throughout these periods urgently.
-4.	Generally, demand slightly decreases at nighttime. Accordingly, perishable ingredients redundancy should be adjusted to avoid ingredient wastage. 
-5.	Latte and americano with milk are the drinks with highest sales, while cortado and espresso had the least sales. Some drinks, especially caffeinated ones such as americano and americano with milk are mostly demanded in the morning. On the other hand, soothing drinks such as hot chocolate, cocoa, and cappuccino are mostly ordered during the night. Ingredients redundancy should be adjusted accordingly.
+1.	Out of the acieved sales, only 15% is the profit margin. this indicates that the total cost is too high that sales are barely covering it. strategies should be taken to significantly cut down total costs.
+2.	March, September, and November are the highest performing months. the store should maintain adequat inventory levels and ensure products availability during these periods.
+3.	Most sales are achieved from orders delivered by standard shipping mode.
+4.	Technology products achieves the higest sales, while office supplies are of the higher-demand.
+5.	
