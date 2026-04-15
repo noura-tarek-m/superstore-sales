@@ -1,87 +1,46 @@
-# **Superstore Sales Analysis** 
-### <img src="https://cdn-icons-png.flaticon.com/512/5145/5145947.png" width="30" height="30"> >> Objective
-----------------
+# Superstore Sales Analysis
+### 1. Objective 
 This project aims to analyze superstore sales and customer transaction data over the span of 5years (2014, 2015, 2016, 2017, 2018) in order to drive insights regarding high-demand products, regions with most demanding customers, and determine how to further increase sales and prevent decline, while maintaining customer base and increasing repeating customers.
 
-### >> Data Cleaning
-----------------
-1.	Removed “Row ID” and “Postal Code” columns.
-2.	Renamed “Sales” column to “SalesAfterDiscount”
-3.	Added “SalesB4Discount” column = “Sales” /(1- “Discount”)
-4.	Added “Cost” column = “Sales” – “Profit”
-5.	Added “Unit Price” = ”SalesB4Discount”/”Quantity”
-6.	Added “Unit Cost” = “Cost” / “Quantity”
-7.	Changed columns data types to suitable data types.
-8.	Trimmed text columns
-9.	Created “DimCustomers” table with the following referenced columns: Customer ID, Customer Name, Segment, Country, City, State, Region.
-10.	Created “DimProducts” table with the following referenced columns: Product ID, Category, Sub-Category, Product Name, Unit Price, Unit Cost
-11.	Created “FactOrders” table with the following referenced columns: Order ID, Order Date, Ship Date, Ship Mode, Quantity, SalesB4Discount, Discount, SalesAfterDiscount, Cost, Profit.
-12.	Removed duplicate data from “Customers” and “Products” tables.
-13.	Add “DimDate” table with the following columns: Full Date, Year, Quarter, Month, Month Name, Day, Day Name.
+### 2. Dataset 
+- Source: Kaggle [(Superstore Dataset)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+- Contains information on customers' transaction data such as order date, ship date, product category/subcategory, quantity sold, sales amount, and customer's demographics.
+- Contain about 10k transaction records.
 
-### >> Questions to Answer
-----------------
--	What is our achieved sales and sold quantity?
--	What big is our customer base?
--	What is the ratio of returning customers compared to total customers?
--	What is the total number of completed orders?
--	What is the average order value?
--	What is our achieved profit margin compared to sales?
--	Which year had the best/worst sales
--	Which months are of highest demand?
--	Which region/country had the least orders and sales?
--	Wihch product category/sub-category achieved the highest sales?
--	which product category/sub-category had the most demands?
--	Which shipmode provided highest sales?
+### 3. Tools & Technologies 
+- Power Query (Data cleaning and transformation)
+- DAX (Data modelling and summarization)
+- Power BI (Data visualization and dashboards interactivity) 
 
--	>>average discount of each category/sub category<<
+### 4. Data Cleaning 
+- Removed non-informative columns such as row identifier and postal code.
+- Standardized column names and data types.
+- Normalized text columns
+- Created calculated columns for efficient analysis.
+- Created DAX measures such as Profit and Revenue -------
 
-### >> Data Visualization
-----------------
-#### Dashboard One: Sales Analysis
-**KPIs**
--	Total Sales
--	AOV Sales
--	AOV Quantity
--	Total Orders
--	Total Quantity
+### 5. Data Modeling 
+The data was structured using a star schema with FactOrders as the fact table, connected to dimension tables of customers, products, and date data. 
 
-**Charts**
--	Sales and quantity over months
--	Sales and quantity over years
--	Sales and orders based on shipping mode
--	Cost vs sales vs profit (profit margin %)
+### 6. Business Questions 
+- What are the overall sales over time?
+- Which drinks provide the highest and lowest sales?
+- Which drinks are the most and least ordered?
+- What are the rush hour periods throughout the day?
+- Are there seasonal changes in customers’ ordering behavior?
 
-**Slicers**
-Year, quarter, month, day, shipping mode slicers
+### 7. Analysis 
+- Analyzed monthly sales trends to identify growth and decline periods
+- Compared different drinks based on sales contribution and quantity sold.
+- Explored seasonal variations in ordering behavior.
 
-#### Dashboard Two: Product Analysis
-**KPIs**
--	Total Categories
--	Total Sub categories
--	Total Products
--	
-**Charts**
-Sales share (%) of categories
-Sales and quantity based on category (drill throughsub-category)
-Products table? (hierarchical)  to find most demand
-
-**Slicers**
-Category, sub-category, product
-
-#### Dashboard Three: Customer Analysis
-**KPIs**
--	Total Customers
--	Total Repeating Customers
--	Customers Return Rate
--	
-**Charts**
--	Sales share over segments
--	Orders/sales over Regions
--	Geographical visualization of sales share over region/country/state/city
-
-**Slicers**
--	Region, state, city
-
-### >> Findings and Insights
-----------------
+### 8. Visualization 
+#### [Dashboard One: Coffee Sales](https://github.com/noura-tarek-m/coffee-sales-analysis/blob/main/project-images/Screenshot%202026-02-20%20232703.png)
+This dashboard aims to analyze sales trend over time, sales and orders contribution of different drinks, and order frequency changes throughout the day. It contains the following KPIs: total sales, orders, and average order value. It visualizes sales trends over time, orders by daytime, drinks contribution to sales and orders, and compares yearly sales. It helps in determining highly demanded drinks, rush hours, and seasonal sales peaks.
+ 
+### 9. Key Findings (Insights) & Recommendations 
+1.	The sales achieved in 2025 are much less than 2024, but we are only through the first quarter of 2025, thus there is no point of comparison in the meantime.
+2.	Orders and sales increase throughout February, March, Sep, Oct, and Nov (1st and 4th quarters of the year, specifically). 
+3.	More orders come in the late morning (11 AM) and afternoon period (4 PM). The café must make sure of staff and drinks availability throughout these periods urgently.
+4.	Generally, demand slightly decreases at nighttime. Accordingly, perishable ingredients redundancy should be adjusted to avoid ingredient wastage. 
+5.	Latte and americano with milk are the drinks with highest sales, while cortado and espresso had the least sales. Some drinks, especially caffeinated ones such as americano and americano with milk are mostly demanded in the morning. On the other hand, soothing drinks such as hot chocolate, cocoa, and cappuccino are mostly ordered during the night. Ingredients redundancy should be adjusted accordingly.
