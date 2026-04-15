@@ -59,4 +59,4 @@ slicers are used across the three dashboards to introduce interactivity and bett
 2.	March, September, and November are the highest performing months. the store should maintain adequat inventory levels and ensure products availability during these periods.
 3.	Most sales are achieved from orders delivered by standard shipping mode.
 4.	Technology products achieved the higest sales, phones, specifically. on the other hand, office supplies are of higher-demand. Furniture had the highest costs.
-5.	most sales comes from California, New York comes in second place. cities will low sales such as South Dakota could be exammed to better improve order handling/delivery to various locations and encourage ordering.
+5.	Most sales comes from California, New York comes in second place. cities will low sales such as South Dakota could be exammed to better improve order handling/delivery to various locations and encourage ordering.
