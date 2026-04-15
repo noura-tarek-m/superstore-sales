@@ -48,7 +48,11 @@ An executive summary of the following main KPIs: Total sales, cost, and profit m
 This dashboard shows yearly sales, monthly sales and quantities trends, and sales share of different shipping mode. It shows important KPIs such as total quantity sold and average quantity per order. it can help determine the year with highest sales through out the period 2014~2017, months/seasons with higher sales, and reliable shipping modes 
 
 #### [Dashboard Two: Product](https://github.com/noura-tarek-m/superstore-sales/blob/master/project-images/3.png)
-In this dashboard,
+This dashboard contains the achieved sales per each category, products or subcategories that had the least and highest sales, and displays products-related KPIs such as average price per unit and average unit cost. we can determine most-demanded products category, and products that had the least demands from the dashboard.
+
+#### [Dashboard Three: Customer](https://github.com/noura-tarek-m/superstore-sales/blob/master/project-images/4.png)
+the dashboard shows the demographics data of customers, it shows the sales achieved from different cities across US, sales share of customer segments, and total sales achieved and quantites sold for each region in the country. important KPIs displayed are total customers, repeat customers and return rate. this can help determine the % of loyal customers and our targeted customer segment. 
+slicers are used across the three dashboards to introduce interactivity and better explore data across different time ranges and locations.
  
 ### 9. Key Findings (Insights) & Recommendations 
 1.	The sales achieved in 2025 are much less than 2024, but we are only through the first quarter of 2025, thus there is no point of comparison in the meantime.
