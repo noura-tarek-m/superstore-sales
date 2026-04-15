@@ -45,7 +45,7 @@ The data was structured using a star schema with FactOrders as the fact table, c
 An executive summary of the following main KPIs: Total sales, cost, and profit margin.
 
 #### [Dashboard One: Sales](https://github.com/noura-tarek-m/superstore-sales/blob/master/project-images/2.png)
-This dashboard shows yearly sales, monthly sales and quantities trends, and sales share of different customer segments.
+This dashboard shows yearly sales, monthly sales and quantities trends, and sales share of different shipping mode. It shows important KPIs such as total quantity sold and average quantity per order. it can help determine the year with highest sales through out the period 2014~2017, months/seasons with higher sales, and reliable shipping modes 
 
 #### [Dashboard Two: Product](https://github.com/noura-tarek-m/superstore-sales/blob/master/project-images/3.png)
 In this dashboard,
