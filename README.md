@@ -23,20 +23,32 @@ This project aims to analyze superstore sales and customer transaction data over
 The data was structured using a star schema with FactOrders as the fact table, connected to dimension tables of customers, products, and date data. 
 
 ### 6. Business Questions 
-- What are the overall sales over time?
-- Which drinks provide the highest and lowest sales?
-- Which drinks are the most and least ordered?
-- What are the rush hour periods throughout the day?
-- Are there seasonal changes in customers’ ordering behavior?
+- Which product category/subcategory achieved the highest sales?
+- Which product category/subcategory achieved the lowest sales
+- which products (subcategory) had the least sales and demand?
+- which city had the highest demand and sales?
+- which city had the least demand and sales?
+- Which customer segment provides higher sales?
+- How is sales and order frequency affected over seasons/time?
+- what is the % of profit out of the achieved sales?
+- What is the % of returning customers?
 
 ### 7. Analysis 
-- Analyzed monthly sales trends to identify growth and decline periods
-- Compared different drinks based on sales contribution and quantity sold.
-- Explored seasonal variations in ordering behavior.
+- Compared profit to cost %
+- Compared the profitability of different product categories and subcategories
+- Analyzed time and seasonal effects on sales and orders frequency.
+- Investigated demographics effects on sales.
+- Identified sales share of different customer segments.
 
 ### 8. Visualization 
-#### [Dashboard One: Coffee Sales](https://github.com/noura-tarek-m/coffee-sales-analysis/blob/main/project-images/Screenshot%202026-02-20%20232703.png)
-This dashboard aims to analyze sales trend over time, sales and orders contribution of different drinks, and order frequency changes throughout the day. It contains the following KPIs: total sales, orders, and average order value. It visualizes sales trends over time, orders by daytime, drinks contribution to sales and orders, and compares yearly sales. It helps in determining highly demanded drinks, rush hours, and seasonal sales peaks.
+#### [General Overview](https://github.com/noura-tarek-m/superstore-sales/blob/master/project-images/1.png)
+An executive summary of the following main KPIs: Total sales, cost, and profit margin.
+
+#### [Dashboard One: Sales](https://github.com/noura-tarek-m/superstore-sales/blob/master/project-images/2.png)
+This dashboard shows yearly sales, monthly sales and quantities trends, and sales share of different customer segments.
+
+#### [Dashboard Two: Product](https://github.com/noura-tarek-m/superstore-sales/blob/master/project-images/3.png)
+In this dashboard,
  
 ### 9. Key Findings (Insights) & Recommendations 
 1.	The sales achieved in 2025 are much less than 2024, but we are only through the first quarter of 2025, thus there is no point of comparison in the meantime.
